@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Perusahaan - Warna Grafika Utama</title>
+
+    <!-- Google Font: Poppins and Custom Font for Welcome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container">
+        <a class="navbar-brand text-white" href="#">
+            <img src="logo.jpg" alt="Warna Grafika Utama Logo" class="logo">
+            <span class="navbar-logo-text">Warna Grafika Utama</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#employee-activities">Kegiatan Karyawan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section text-center text-dark" data-aos="fade-up">
+    <div class="hero-content container">
+        <h1 class="display-4">Selamat Datang di Warna Grafika</h1>
+        <p class="lead">Layanan Desain dan Percetakan Foto, Banner, Laminating, Fotocopy Berkas, Desain Gelas Mug, Brosur, dan Lainnya.</p>
+        <div class="row mt-5">
+            <div class="col-lg-3" data-aos="fade-right">
+                <div class="glassmorphism">
+                    <img src="foto1.jpg" class="img-fluid rounded" alt="Foto Perusahaan 1">
+                </div>
+            </div>
+            <div class="col-lg-3" data-aos="fade-up">
+                <div class="glassmorphism">
+                    <img src="foto2.jpg" class="img-fluid rounded" alt="Foto Perusahaan 2">
+                </div>
+            </div>
+            <div class="col-lg-3" data-aos="fade-left">
+                <div class="glassmorphism">
+                    <img src="foto3.jpg" class="img-fluid rounded" alt="Foto Perusahaan 3">
+                </div>
+            </div>
+            <div class="col-lg-3" data-aos="fade-up">
+                <div class="glassmorphism">
+                    <img src="foto4.jpg" class="img-fluid rounded" alt="Foto Perusahaan 4">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Employee Activities Section -->
+<section id="employee-activities" class="text-center py-5" data-aos="fade-up">
+    <div class="container">
+        <h2>Foto Kegiatan Karyawan</h2>
+        <p class="lead">Berikut adalah beberapa foto kegiatan karyawan kami dalam menjalankan aktivitas sehari-hari di perusahaan.</p>
+        <div class="row mt-5">
+            <div class="col-md-4 mb-4">
+                <div class="glassmorphism">
+                    <img src="kegiatan1.jpg" class="img-fluid rounded" alt="Kegiatan 1">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="glassmorphism">
+                    <img src="kegiatan2.jpg" class="img-fluid rounded" alt="Kegiatan 2">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="glassmorphism">
+                    <img src="kegiatan3.jpg" class="img-fluid rounded" alt="Kegiatan 3">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="glassmorphism">
+                    <img src="kegiatan4.jpg" class="img-fluid rounded" alt="Kegiatan 4">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="glassmorphism">
+                    <img src="kegiatan5.jpg" class="img-fluid rounded" alt="Kegiatan 5">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services-section text-center" data-aos="fade-up">
+    <div class="container">
+        <h2 class="mb-5">Layanan Kami</h2>
+        <div class="row">
+            <!-- Service 1 -->
+            <div class="col-md-4 mb-4" data-aos="flip-left">
+                <div class="service-card p-4">
+                    <i class="fas fa-camera-retro fa-3x mb-3"></i>
+                    <h4>Desain Foto</h4>
+                    <p>Menawarkan layanan desain foto yang kreatif dan profesional untuk berbagai kebutuhan.</p>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                <div class="service-card p-4">
+                    <i class="fas fa-file-image fa-3x mb-3"></i>
+                    <h4>Desain Banner</h4>
+                    <p>Desain banner dengan kualitas tinggi untuk acara atau promosi bisnis Anda.</p>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="200">
+                <div class="service-card p-4">
+                    <i class="fas fa-print fa-3x mb-3"></i>
+                    <h4>Cetak Foto & Laminating</h4>
+                    <p>Melayani cetak foto dan laminating dengan kualitas terbaik untuk berbagai kebutuhan Anda.</p>
+                </div>
+            </div>
+            <!-- Service 4 -->
+            <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="300">
+                <div class="service-card p-4">
+                    <i class="fas fa-copy fa-3x mb-3"></i>
+                    <h4>Fotocopy Berkas</h4>
+                    <p>Menawarkan layanan fotocopy berkas untuk berbagai keperluan dengan hasil yang jernih dan presisi.</p>
+                </div>
+            </div>
+            <!-- Service 5 -->
+            <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="400">
+                <div class="service-card p-4">
+                    <i class="fas fa-mug fa-3x mb-3"></i>
+                    <h4>Desain Gelas Mug</h4>
+                    <p>Desain gelas mug unik untuk promosi atau hadiah personal yang berkesan.</p>
+                </div>
+            </div>
+            <!-- Service 6 -->
+            <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="500">
+                <div class="service-card p-4">
+                    <i class="fas fa-brochure fa-3x mb-3"></i>
+                    <h4>Desain Brosur</h4>
+                    <p>Desain brosur yang menarik dan informatif untuk kebutuhan promosi atau informasi produk Anda.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="text-center py-5" data-aos="fade-up">
+    <div class="container">
+        <h2>Tentang Kami</h2>
+        <p class="lead">Kami adalah perusahaan yang bergerak di bidang desain grafis dan percetakan dengan pengalaman bertahun-tahun dalam melayani berbagai kebutuhan media visual Anda.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="footer text-center" data-aos="fade-up">
+    <div class="container">
+        <h3>Kontak Kami</h3>
+        <p>Jika Anda tertarik menggunakan layanan kami, hubungi kami di:</p>
+        <p>Email: <a href="mailto:warnagrafikautama@gmail.com" class="text-white">warnagrafikautama@gmail.com</a></p>
+        <p>Telp: 0821-1120-1819</p>
+        <p>WhatsApp: <a href="https://wa.me/6282111201819" class="text-white">+62 821-1120-1819</a></p>
+        <p>Lokasi: Jl. H Mawi Kp Waru, Parung</p>
+        <div class="mt-4">
+            <a href="https://www.facebook.com/WarnaGrafikaUtama" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/pt.warnagrafikautama/" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS & Dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+<!-- AOS Animation JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+</body>
+</html>
